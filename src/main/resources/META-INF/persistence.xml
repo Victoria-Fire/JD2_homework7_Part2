@@ -5,6 +5,10 @@
              version="2.0">
     <persistence-unit name="homework7">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>by.academy.it.reunova.entity.HomeTask</class>
+        <class>by.academy.it.reunova.entity.Person</class>
+        <class>by.academy.it.reunova.entity.Task</class>
+        <class>by.academy.it.reunova.entity.WorkTask</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.url"
